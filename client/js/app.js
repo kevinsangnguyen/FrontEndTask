@@ -8,17 +8,9 @@ board.config(function ($stateProvider, $urlRouterProvider) {
       url: "/dashboard",
       templateUrl: "partials/dashboard.html",
     })
-    .state('standings',{
-      url:'/standings',
-      templateUrl: 'partials/standings.html',
-    })
-    .state('boxscore',{
-      url:'/boxscore',
-      templateUrl: 'partials/boxscore.html',
-    })
-    .state('leagueleaders',{
-      url:'/leaders',
-      templateUrl: 'partials/leaders.html',
+    .state('post',{
+      url:'/post',
+      templateUrl: 'partials/post.html',
     })
 
 });

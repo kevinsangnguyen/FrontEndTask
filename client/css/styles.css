@@ -4,8 +4,30 @@ body{
   font-family: 'Ek Mukta', sans-serif !important;
 }
 
+a{
+  cursor: pointer;
+}
+
 .view_box{
-  height:800px;
-  width:50%;
+  height:80vh;
+  width:100%;
   border:black 1px solid;
+  overflow-y: auto;
+}
+
+img{
+  float:left;
+  margin-right:5px;
+}
+
+h3{
+  display:inline-block;
+}
+
+.post{
+  display:inline-block;
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+  width:100%;
+
 }

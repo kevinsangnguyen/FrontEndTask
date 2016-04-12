@@ -1,3 +1,7 @@
-<div>
-	hey
+<div ng-repeat="item in data.items" class="post">
+	<img src="{{item.media.m}}">
+	<h1 ng-click="details(item)"><a>{{item.title}}</a></h1>
+	<h3><a target="_blank" href="https://www.flickr.com/{{item.author_id}}">Author</a></h3>
+	<h3>Published: {{item.published | date:'MM/dd/yyyy @ h:mma'}}</h3>
+	<h3><a target="_blank" href="{{item.link}}">View on Flickr</a></h3>
 </div>
